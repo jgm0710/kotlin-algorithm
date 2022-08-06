@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="programmers.level1.GetReportResultTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-06T09:37:22" hostname="jeong-gumins-MacBook-Pro.local" time="0.027">
+  <properties/>
+  <testcase name="solution()" classname="programmers.level1.GetReportResultTest" time="0.027"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
