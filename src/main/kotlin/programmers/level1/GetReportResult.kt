@@ -1,11 +1,15 @@
 package programmers.level1
 
+/**
+ *  [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/92334?language=kotlin)
+ * */
 class GetReportResult {
 
     private val reportResult = mutableMapOf<String, MutableSet<String>>()
     private val mailSentResult = mutableMapOf<String, Int>()
 
     /**
+     * ### 문제 조건
      * 한 회원은 서로 다른 유저를 한 번 씩 신고할 수 있다.
      *
      * k 번 이상 신고된 회원은 정지가 된다.
@@ -16,6 +20,7 @@ class GetReportResult {
      *
      * =================================
      *
+     * ### 풀이 방식
      * 같은 유저를 두 번 신고할 경우 무시
      *
      * 신고 당한 회원의 이름으로 맵을 만든다.
